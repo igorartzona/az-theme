@@ -1,0 +1,45 @@
+/*====================== SIDEBAR =======================*/
+.az-sidebar {
+  overflow: hidden;
+  padding: 0 1em;
+  word-wrap: break-word; }
+
+.az-widget {
+  /*border-bottom: 1px solid silver;
+  border-top: 1px solid silver;*/
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  /*color:#7f7f7f;*/ }
+
+.az-sidebar select {
+  width: 100%;
+  padding: 0.5em; }
+
+.az-header-sidebar, .az-footer-sidebar {
+  display: flex; }
+
+.az-header-sidebar > aside, .az-footer-sidebar > aside {
+  padding: 0 1em; }
+
+.az-header-sidebar {
+  align-items: center; }
+
+.az-left-sidebar > aside, .az-right-sidebar > aside {
+  padding-bottom: 1em; }
+
+.az-left-sidebar > aside:last-child, .az-right-sidebar > aside:last-child {
+  padding-bottom: 0; }
+
+.az-left-sidebar {
+  border-right: 1px solid silver; }
+
+.az-right-sidebar {
+  border-left: 1px solid silver; }
+
+.widget_search {
+  text-align: center; }
+
+/*------End Sidebar------*/

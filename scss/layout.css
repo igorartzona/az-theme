@@ -1,0 +1,34 @@
+/*=================  LAYOUT ==================*/
+#az-wrap {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between; }
+
+.az-content {
+  display: flex;
+  justify-content: space-between;
+  flex: 2;
+  padding: 1em 0;
+  overflow: hidden;
+  border-top: 1px solid silver; }
+
+.az-primary-nav + .az-content {
+  box-shadow: none; }
+
+#main {
+  padding: 0 1em; }
+
+#main > article:first-child {
+  padding-top: 0; }
+
+section {
+  padding: 1em;
+  width: 100%; }
+
+section > h2:first-child {
+  text-transform: uppercase;
+  background: wheat;
+  color: blue;
+  margin: 0; }

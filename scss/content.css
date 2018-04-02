@@ -1,0 +1,108 @@
+/*=================  CONTENT ==================*/
+.az-frontpage-article {
+  padding: 1em 0; }
+
+.az-article {
+  border-bottom: 1px dotted silver;
+  padding: 1em 0; }
+
+/*-- meta --*/
+.az-breadcrumbs:before {
+  font-family: dashicons;
+  content: "\f102";
+  padding-right: 0.3125em;
+  vertical-align: text-bottom;
+  font-size: 1.2rem; }
+
+.az-breadcrumbs {
+  padding: 1em;
+  border: 1px dotted; }
+
+.az-article-meta, .az-breadcrumbs {
+  color: #939393;
+  line-height: 1.2em;
+  /*margin-bottom:1em;*/
+  font-size: 90%; }
+
+.az-article-meta {
+  text-align: left;
+  padding: 0.5em 0; }
+
+.az-article-meta :before {
+  font-size: 1em; }
+
+.az-article-meta > span {
+  padding-right: 0.5em; }
+
+.az-article-meta > span::before {
+  font-size: 1.2rem; }
+
+.az-posttitle-date:before {
+  font-family: dashicons;
+  content: "\f508"; }
+
+.az-posttitle-time:before {
+  font-family: dashicons;
+  content: "\f469"; }
+
+.az-author-meta:before {
+  font-family: dashicons;
+  content: "\f110"; }
+
+.az-comment-meta:before {
+  font-family: dashicons;
+  content: "\f101"; }
+
+.az-category-meta:before {
+  font-family: dashicons;
+  content: "\f318"; }
+
+.az-tags-meta:before {
+  font-family: dashicons;
+  content: "\f323"; }
+
+/*-- meta end --*/
+.entry h1, .entry h2, .entry h3, .entry h4, .entry h5, .entry h6 {
+  font-weight: bold;
+  line-height: 1.2em;
+  margin: 1em 0; }
+
+article .entry {
+  max-width: 60rem;
+  margin: 0 auto;
+  word-wrap: break-word; }
+
+.entry h6 {
+  font-size: 1.2em; }
+
+.entry h5 {
+  font-size: 1.4em; }
+
+.entry h4 {
+  font-size: 1.6em; }
+
+.entry h3 {
+  font-size: 1.8em; }
+
+.entry h2 {
+  font-size: 2em; }
+
+.entry h1 {
+  font-size: 2.2em; }
+
+.entry ul {
+  list-style: inside disc;
+  padding: 1em; }
+
+.entry ol {
+  list-style: inside decimal;
+  padding: 1em; }
+
+.entry ul > li {
+  padding-left: 1em; }
+
+.entry p {
+  margin: 1em; }
+
+.entry img {
+  box-shadow: 1px 2px 2px 0 rgba(0, 0, 0, 0.5); }

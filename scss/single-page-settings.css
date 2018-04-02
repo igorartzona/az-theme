@@ -1,0 +1,25 @@
+/*====================== SINGLE PAGE =======================*/
+/*-- edit link --*/
+.az-edit:before {
+  font-family: dashicons;
+  content: "\f464";
+  font-size: 1.2em;
+  vertical-align: text-top; }
+
+.az-edit {
+  display: inline-block;
+  margin-bottom: 1em; }
+
+.post-edit-link {
+  background: #FFF9C0;
+  padding: 2px;
+  font-style: italic;
+  font-family: Georgia,serif; }
+
+/*-- end edit link --*/
+.az-prev-next-link {
+  padding: 1em;
+  border-bottom: 1px dotted silver; }
+
+.az-single-thumbnail {
+  float: right; }

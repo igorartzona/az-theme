@@ -1,0 +1,525 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: az theme\n"
+"POT-Creation-Date: 2018-03-10 11:24+0300\n"
+"PO-Revision-Date: 2018-03-10 11:25+0300\n"
+"Last-Translator: \n"
+"Language-Team: artzona.org\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: az-options.php:14
+msgid ""
+"Thanks for use theme. You can delete theme data <a href=\"?page=az_theme_id"
+"\"> here</a>"
+msgstr ""
+"Спасибо за использование нашей темы. Вы можете очистить данные темы <a href="
+"\"?page=az_theme_id\">тут</a>"
+
+#: az-options.php:28
+msgid "Press button to delete theme data from DB"
+msgstr "Нажмите \"Очистить\" для удаления данных темы из БД"
+
+#: az-options.php:33
+msgid "Additional theme capabilities"
+msgstr "Дополнительные возможности темы"
+
+#: az-options.php:60
+msgid "Warning! Be careful by system settings!"
+msgstr "Внимание! Будьте осторожны с этими настройками!"
+
+#: az-options.php:72
+msgid "<p>Theme data is successful delete!</p>"
+msgstr "<p>Данные темы успешно удалены!</p>"
+
+#: az-options.php:75
+msgid "Options saved"
+msgstr "Опции сохранены"
+
+#: az-options.php:87
+msgid "Clean theme data"
+msgstr "Очистить данные темы"
+
+#: az-options.php:108
+msgid "Recommended delete data before uninstall theme"
+msgstr "Рекомендуется удалить данные перед удалением темы"
+
+#: az-options.php:112
+msgid "Clean DB"
+msgstr "Очистить БД"
+
+#: comments.php:10
+msgid "Comments :"
+msgstr "Комментарии :"
+
+#: comments.php:34 index.php:85
+msgid "&laquo;"
+msgstr ""
+
+#: comments.php:35 index.php:86
+msgid "&raquo;"
+msgstr ""
+
+#: comments.php:73
+msgid "Name"
+msgstr "Имя"
+
+#: comments.php:75
+msgid "Email"
+msgstr "Email"
+
+#: comments.php:77
+msgid "Website"
+msgstr "Веб-сайт"
+
+#: functions.php:36 functions.php:228
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: functions.php:178
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: functions.php:201
+msgid "None"
+msgstr "Отсутствует"
+
+#: functions.php:222
+msgid "Home"
+msgstr "Главная"
+
+#: functions.php:223
+#, php-format
+msgid "Category \"%s\""
+msgstr "Категория \"%s\""
+
+#: functions.php:224
+#, php-format
+msgid "Search in \"%s\""
+msgstr "Поиск по запросу \"%s\""
+
+#: functions.php:225
+#, php-format
+msgid "Tag in \"%s\""
+msgstr "Метка \"%s\""
+
+#: functions.php:226
+#, php-format
+msgid "By author %s"
+msgstr "Автор %s"
+
+#: functions.php:227
+msgid "Error 404"
+msgstr "Ошибка 404"
+
+#: functions.php:229
+#, php-format
+msgid "Page comments %s"
+msgstr "Страница комментариев: %s"
+
+#: functions.php:409
+msgid "Main menu"
+msgstr "Главное меню"
+
+#: functions.php:421
+msgid "Header Sidebar"
+msgstr "Сайдбар в шапке"
+
+#: functions.php:435
+msgid "Left Sidebar"
+msgstr "Левый сайдбар"
+
+#: functions.php:451
+msgid "Right Sidebar"
+msgstr "Правый сайдбар"
+
+#: functions.php:467
+msgid "Footer Sidebar"
+msgstr "Сайдбар в подвале"
+
+#: functions.php:481
+msgid "Single Left Sidebar"
+msgstr "Левый сайдбар отдельной страницы"
+
+#: functions.php:524
+msgid "You must supply a numeric value"
+msgstr "Вы должны вводить только цифры"
+
+#: inc/panel/archive-page.php:6
+msgid "Archive page (default)"
+msgstr "Страница архивов (по умолчанию)"
+
+#: inc/panel/archive-page.php:7
+msgid "Archive page tuning"
+msgstr "Настройка  страницы архивов"
+
+#: inc/panel/archive-page.php:19 inc/panel/single-page.php:19
+#: inc/panel/single-post.php:19
+msgid "Display breadcrumbs"
+msgstr "Показывать \"хлебные крошки\""
+
+#: inc/panel/archive-page.php:33 inc/panel/single-page.php:33
+msgid "Display page title"
+msgstr "Показывать заголовок страницы"
+
+#: inc/panel/archive-page.php:47 inc/panel/single-page.php:47
+msgid "Display page meta"
+msgstr "Показывать мета-данные"
+
+#: inc/panel/archive-page.php:61 inc/panel/front-page.php:47
+#: inc/panel/single-page.php:61 inc/panel/single-post.php:75
+msgid "View date"
+msgstr "Показать дату"
+
+#: inc/panel/archive-page.php:75 inc/panel/front-page.php:61
+#: inc/panel/single-page.php:75 inc/panel/single-post.php:89
+msgid "View time"
+msgstr "Показать время"
+
+#: inc/panel/archive-page.php:89 inc/panel/front-page.php:75
+#: inc/panel/single-page.php:89 inc/panel/single-post.php:103
+msgid "View post author"
+msgstr "Показать автора"
+
+#: inc/panel/archive-page.php:103 inc/panel/front-page.php:89
+#: inc/panel/single-post.php:117
+msgid "View post category"
+msgstr "Показывать категорию поста(записи)"
+
+#: inc/panel/archive-page.php:117 inc/panel/front-page.php:103
+msgid "View comments link"
+msgstr "Показывать ссылку коммментариев"
+
+#: inc/panel/colors.php:11
+msgid "Menu Color"
+msgstr "Цвет меню"
+
+#: inc/panel/colors.php:24
+msgid "Menu Link Color"
+msgstr "Цвет ссылок в меню"
+
+#: inc/panel/colors.php:39
+msgid "Apply intellectual color theme"
+msgstr "Автоматически генерировать цветовую схему"
+
+#: inc/panel/colors.php:53
+msgid "Primary Color"
+msgstr "Базовый цвет"
+
+#: inc/panel/font.php:8
+msgid "Font"
+msgstr "Шрифт"
+
+#: inc/panel/font.php:9
+msgid ""
+"Install font to theme (copy code from <a href=\"https://www.google.com/fonts"
+"\" target=_blank>Google Fonts</a> and enter Font Family). Font to be used in "
+"body tag"
+msgstr ""
+"Добавьте шрифт в вашу тему (скопируйте код из <a href=\"https://www.google."
+"com/fonts\" target=_blank>Google Fonts</a> и укажите Font Family). Шрифт "
+"будет применен к тэгу body"
+
+#: inc/panel/font.php:26
+msgid "Google Font code"
+msgstr "код из Google Font"
+
+#: inc/panel/font.php:56
+msgid "Font Family"
+msgstr "Font Family"
+
+#: inc/panel/font.php:80
+msgid "Font Size (em)"
+msgstr "Размер шрифта (em)"
+
+#: inc/panel/footer.php:7
+msgid "Footer settings"
+msgstr "Настройки подвала"
+
+#: inc/panel/footer.php:8
+msgid "Footer tuning"
+msgstr "Настройка подвала"
+
+#: inc/panel/footer.php:23
+msgid "Display footer sidebar"
+msgstr "Показывать сайдбар в подвале"
+
+#: inc/panel/footer.php:41 inc/panel/header.php:101
+msgid "Justify-content (flex option)"
+msgstr "Justify-content (flex option)"
+
+#: inc/panel/front-page.php:6
+msgid "Front Page"
+msgstr "Главная страница"
+
+#: inc/panel/front-page.php:7
+msgid "Front Page tuning"
+msgstr "Настройка главной страницы"
+
+#: inc/panel/front-page.php:19 inc/panel/single-post.php:47
+msgid "Display post title"
+msgstr "Показать заголовок поста (записи)"
+
+#: inc/panel/front-page.php:33 inc/panel/single-post.php:61
+msgid "Display post meta"
+msgstr "Показать мета-данные поста (записи)"
+
+#: inc/panel/front-page.php:119
+msgid "View pagination"
+msgstr "Показывать пагинацию"
+
+#: inc/panel/header.php:7
+msgid "Header settings"
+msgstr "Настройки шапки (header)"
+
+#: inc/panel/header.php:8
+msgid "Header tuning"
+msgstr "Настройка шапки (header)"
+
+#: inc/panel/header.php:21 inc/panel/title-tag.php:28
+msgid "Header background"
+msgstr "Фоновая картинка шапки"
+
+#: inc/panel/header.php:39
+msgid "Choice header height"
+msgstr "Выберите высоту шапки"
+
+#: inc/panel/header.php:44
+msgid "Height as background image"
+msgstr "Высота фоновой картинки шапки"
+
+#: inc/panel/header.php:45
+msgid "Height 100%"
+msgstr "Высота 100%"
+
+#: inc/panel/header.php:46
+msgid "Custom height (px)"
+msgstr "Произвольная высота (px)"
+
+#: inc/panel/header.php:63
+msgid "Custom height size (px)"
+msgstr "Размер произвольной высоты (px)"
+
+#: inc/panel/header.php:84
+msgid "Display header sidebar"
+msgstr "Показать сайдбар в шапке"
+
+#: inc/panel/layout.php:6
+msgid "Layout"
+msgstr "Макет"
+
+#: inc/panel/layout.php:7
+msgid "Layout settings"
+msgstr "Настройки макета"
+
+#: inc/panel/layout.php:19
+msgid "Choice design"
+msgstr "Выбор дизайна"
+
+#: inc/panel/layout.php:23
+msgid "Blog"
+msgstr "Блог (классический вид)"
+
+#: inc/panel/layout.php:24
+msgid "Landing page"
+msgstr "Лендинг"
+
+#: inc/panel/layout.php:37
+msgid "Display left sidebar"
+msgstr "Показать левый сайдбар"
+
+#: inc/panel/layout.php:51
+msgid "Display right sidebar"
+msgstr "Показать правый сайдбар"
+
+#: inc/panel/layout.php:65
+msgid "Site max-width (px)"
+msgstr "Максимальная ширина сайта (px)"
+
+#: inc/panel/layout.php:79
+msgid "Sidebar width (%)"
+msgstr "Ширина сайдбара (%)"
+
+#: inc/panel/menu.php:6
+msgid "NAV settings"
+msgstr "Настройки навигации"
+
+#: inc/panel/menu.php:7
+msgid "NAV layout tuning. Choice main menu in Menus section before customize"
+msgstr ""
+"Настройка навигации. Установите главное меню в секции \"Меню\" перед "
+"настройкой"
+
+#: inc/panel/menu.php:24
+msgid "Menu"
+msgstr "Меню"
+
+#: inc/panel/menu.php:28
+msgid "After Header"
+msgstr "После шапки"
+
+#: inc/panel/menu.php:29
+msgid "On top"
+msgstr "Вверху"
+
+#: inc/panel/single-page.php:6
+msgid "Single Page"
+msgstr "Отдельная страница"
+
+#: inc/panel/single-page.php:7
+msgid "Single page tuning"
+msgstr "Настройка отдельной страницы"
+
+#: inc/panel/single-post.php:6
+msgid "Single post"
+msgstr "Отдельный пост (запись)"
+
+#: inc/panel/single-post.php:7
+msgid "Single post tuning"
+msgstr "Настройка отдельного поста (записи)"
+
+#: inc/panel/single-post.php:33
+msgid "View post thumbnail"
+msgstr "Показать миниатюру поста"
+
+#: inc/panel/single-post.php:132
+msgid "Display PREV\\NEXT link"
+msgstr "Показывать ссылки Предыдущая\\Следующая"
+
+#: inc/panel/title-tag.php:12
+msgid "Logo"
+msgstr "Логотип"
+
+#: index.php:65
+#, php-format
+msgid "Search Results for : %s"
+msgstr "Результаты поиска по запросу \" %s \""
+
+#: template/content-archive.php:35 template/content-frontpage.php:36
+#: template/content-landing.php:36
+msgid "Leave a comment"
+msgstr "Комментарии"
+
+#: template/content-archive.php:61 template/content-frontpage.php:76
+#: template/content-frontpage.php:78 template/content-landing.php:74
+#: template/content-landing.php:76
+msgid "Read more&rArr;"
+msgstr "Читать далее&rArr;"
+
+#: template/content-attachment.php:22 template/content-page.php:5
+#: template/content-single.php:5
+msgid "Edit This"
+msgstr "Редактировать"
+
+#: template/content-none.php:8
+#, php-format
+msgid "Not Found for : %s"
+msgstr "По запросу \" %s \" ничего не найдено"
+
+#: template/content-none.php:17
+msgid "Page not found"
+msgstr "Страница отсутствует"
+
+#: template/content-page.php:48 template/content-single.php:57
+msgid "Tags: "
+msgstr "Метки:"
+
+#: template/content-page.php:55 template/content-single.php:64
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: template/content-page.php:61 template/content-single.php:70
+msgid "Next page"
+msgstr "Следующая страница"
+
+#: template/content-page.php:62 template/content-single.php:71
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+#: widget/requisites.php:6
+msgid "Requisite Widget"
+msgstr "Виджет реквизитов"
+
+#: widget/requisites.php:8
+msgid "Enter your requisites here"
+msgstr "Добавьте свои реквизиты в этом виджете"
+
+#: widget/requisites.php:65
+msgid "Requisites"
+msgstr "Реквизиты"
+
+#: widget/requisites.php:70
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: widget/requisites.php:84
+msgid "Your address"
+msgstr "Адрес"
+
+#: widget/requisites.php:88
+msgid "Address:"
+msgstr "Адрес:"
+
+#: widget/requisites.php:102 widget/requisites.php:120
+msgid "0123456789"
+msgstr ""
+
+#: widget/requisites.php:106
+msgid "Phone:"
+msgstr "Телефон:"
+
+#: widget/requisites.php:124
+msgid "Phone 2:"
+msgstr "Телефон 2:"
+
+#: widget/requisites.php:138
+msgid "example@example.com"
+msgstr ""
+
+#: widget/requisites.php:142
+msgid "E-mail:"
+msgstr "E-mail:"
+
+#~ msgid "New title"
+#~ msgstr "Заголовок"
+
+#~ msgid "%s"
+#~ msgstr "%s"
+
+#~ msgid "Your comment will be published after approval by the administrator"
+#~ msgstr "Ваш комментарий будет опубликован после одобрения администратором"
+
+#~ msgid "%1$s at %2$s"
+#~ msgstr "%1$s как %2$s"
+
+#~ msgid "(Edit)"
+#~ msgstr "(Редактировать)"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Your message..."
+#~ msgstr "Ваше сообщение..."
+
+#~ msgid "Send"
+#~ msgstr "Отправить"
+
+#~ msgid "Page"
+#~ msgstr "Страница"
+
+#~ msgid "from"
+#~ msgstr "из"
+
+#~ msgid "Enter country code for autocall link. For example +7(495) 123-45-67"
+#~ msgstr ""
+#~ "Указывайте код страны для корректного вызова при клике. Например +7(495) "
+#~ "123-45-67"

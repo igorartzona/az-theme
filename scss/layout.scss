@@ -1,0 +1,56 @@
+
+/*=================  LAYOUT ==================*/
+
+#az-wrap{
+    margin: 0 auto;    
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.az-content{
+    display: flex;
+    justify-content: space-between;
+    //background: bisque;
+    flex:2;
+	//box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.5),0 1px 2px rgba(0, 0, 0, 0.5);
+	padding:1em 0;
+	overflow:hidden;
+	border-top: 1px solid silver;
+}
+
+.az-primary-nav + .az-content{
+	box-shadow:none;
+}
+
+#main{
+    //background: lightpink;
+    padding: 0 1em;
+    //width: 100%;
+	//overflow:auto;
+}
+
+#main > article:first-child{
+    padding-top: 0;
+}
+
+section{
+    //background:  mediumseagreen; 
+    padding: 1em;
+    width:100%;
+}
+
+section > h2:first-child{
+    text-transform: uppercase;
+    background: wheat;
+    color:blue;
+    margin: 0;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,164 @@
+
+/*=================  MEDIA TABLET ==================*/
+
+@media only screen and (max-width: 1023px) {
+
+    #az-wrap{
+        min-height: 0;
+    }
+    #az-header, .az-content, {
+        flex-direction: column;
+    }
+    #main{
+        order:-1;		
+    }
+	.az-header-sidebar{
+		flex-direction: column;
+		//align-items:left;
+	}
+	#az-site-branding{
+		text-align:center;
+	}
+	#az-logo{
+		max-width:100%;
+		text-align:center;
+	}
+	
+	.az-index-thumbnail{
+		height:150px;
+		width:150px;
+	}
+	
+	.az-flex{
+		flex-direction:column;
+	}
+	
+	.az-sidebar{
+		width:100%;
+		margin:1em auto;
+	}
+	
+	.az-content, .sticky{
+		padding:0.5em 0;
+	}
+	
+	.az-article{
+		padding: 0.5em 0;
+	}
+	
+	.navigation{
+		position:fixed;
+		bottom:0;
+		left:0;
+		width:100%;		
+		opacity:0.4;
+		border:0;
+		box-shadow:none;
+	}
+	
+	.az-posttitle{
+		font-size:1em;
+	}
+	
+	.entry p{
+		margin:0.5em;
+	}
+
+	blockquote{
+		padding:0.5em 0.5em 0.5em 1em;
+		margin:0.5em 0.5em 0.5em 1em;
+		font-size: 0.9em;
+	}
+	
+	.navigation > a{
+		height:38px;
+		font-size:26px;
+	}
+	
+	.az-primary-nav .menu {
+    display: none;
+    height: 100%; }
+	
+	.az-primary-nav .sub-menu,
+	.az-primary-nav .children {
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0; }
+	
+	/*-- button --*/
+		.toggle-button:after {
+			font-size: 1.8em;
+			font-family: dashicons;
+			content: '\f333';
+			display: block;
+			padding: 0.1em;
+			color: #7f7f7f; }
+
+		.toggle-button {
+			display: block;
+			cursor: pointer; 
+			padding: 0 calc(50% - 1em);
+		}
+
+		#menu-checkbox:checked + nav[role="navigation"] .menu {
+			display: block;
+			height: 100%; }
+
+		#menu-checkbox:checked + nav[role="navigation"] .toggle-button:after {
+			font-size: 2em;
+			font-family: dashicons;
+			content: '\f158'; }	
+	/*-- button end --*/
+	
+	.az-primary-nav ul > li {
+		display:block;
+		font-size:12px;			
+	}
+	
+		
+	.az-primary-nav .sub-menu,
+	.az-primary-nav .children {
+		z-index:0;
+		display:block;
+		margin-left:20px;
+		border:0;
+	}
+	
+	.az-primary-nav .sub-menu .menu-item-has-children > a:after,
+	.az-primary-nav .children .menu-item-has-children > a:after {
+		font-family: dashicons;
+		content: "\f140"; }
+	
+	.az-primary-nav li:hover {
+  	  background: none;
+	}
+	
+	.az-prev-next-link{
+		font-size:12px;
+	}
+	
+	
+	footer {
+		flex-direction:column;
+	}
+	
+	.comment{
+		padding:5px;
+	}
+	
+	#respond{
+		margin: 0.5em 0.5em 0;
+	}
+	
+	.comment-form input[type="text"], 
+	.comment-form input[type="email"],
+	.comment-form input[type="url"],
+	.comment-form input[type="submit"]{
+		width:100%;
+	}
+	
+	
+
+	
+}

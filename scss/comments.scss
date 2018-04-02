@@ -1,0 +1,180 @@
+
+/*=================  COMMENTS ==================*/
+
+/*comments content*/
+	
+	.comment-content ul, .comment-content ol{		
+		padding: 1em;
+	}
+	
+	.comment-content ul{
+		list-style: inside disc;
+	}
+	
+	.comment-content ol{
+		list-style: inside decimal;
+	}
+/* end comments content*/
+
+	#comment {
+	  width: 100%;	  
+	  padding:0.5em;
+	}
+
+	.avatar {
+		vertical-align: middle;
+		box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.5);
+	}
+	  
+	.comments-title{
+		font-weight:bold;
+		line-height:1.6em;
+		padding-left:1em;
+		border-top:1px dotted;
+		border-bottom:1px dotted;
+		margin:1em 0;	  
+	}
+	
+	.comment-notes{
+		font-size:0.8em;
+		font-weight:normal;
+		border:1px dotted;
+		padding:0 1em;
+		text-align:right;
+	}
+	.comment-form-comment label{
+		padding:1em 0;
+		display:block;
+	}
+	
+	  
+	.comment{
+		border-top:1px solid silver;
+		padding:1em;
+	}
+	  
+	.az-comments_in{
+		padding-top:0.5em;
+		padding-bottom:1em;
+	}  
+
+	.comment-reply-title {
+		font-weight: normal;		
+		line-height: 2em;
+		padding:0.5em;
+		text-transform:uppercase;
+	}
+
+	.comment-reply-title:before {		
+		content: "\f473";
+		font-family: dashicons;
+		font-size: 2em;
+		padding-right: 0.5em;
+	}
+
+	.reply:before  {
+		font-family:'dashicons';
+		content: '\f101 \0020';
+		vertical-align:middle;
+		color:#7f7f7f;
+		font-size: 1.2rem;
+	}
+
+	.comment-reply-link {
+		color: gray;
+		font-size: 0.9em;
+	}
+
+	.comment-author {
+		font-weight: bold;
+	}
+
+	.comment-form {
+		margin-top: 1em;
+	}
+
+	.comment-meta {
+		box-shadow:none;
+		justify-content:space-between;		
+		padding-bottom:0;
+		margin-bottom:1em;
+	}
+	
+	.comment-metadata{
+		font-size:0.8em;		
+		padding: 0 1em;
+		margin: 0 1em;
+	}
+
+	.az-commenttext {
+		padding: 1em;
+	}
+
+	.az-commentlist > li p {
+		margin:1em;
+		padding: 1em;
+		border:1px dotted silver;
+		background:#F5F5F5;
+		
+	}
+
+	.az-commentlist .children > li {
+		margin-left: 2em;
+	}
+
+	.comment-form-author, .comment-form-email, .comment-form-url{
+		font-weight: bold; 
+		text-align:center;
+		padding:1em 0;
+	 }	 
+	 
+	.comment-form input[type="text"], 
+	.comment-form input[type="email"],
+	.comment-form input[type="url"],
+	.comment-form input[type="submit"] {
+		width: 50%;
+		font-weight:bold;		
+		font-size:1em;
+		box-sizing:border-box;		
+	} 
+
+	#respond {
+		font-weight: bold;
+	}
+	
+	.comment-respond {
+		background: #F5F5F5 none repeat scroll 0 0;
+		border-bottom: 1px dotted #ccc;		
+		padding: 1em;		
+		margin: 1em auto;		
+		max-width:55rem;	
+	}
+
+	#respond textarea {
+		font-weight: bold;	
+		font-family:Arial;
+		font-size:1em;
+	}
+
+	#comment {
+		width: 100%;
+	}
+
+	.form-submit {
+		text-align: center;
+		margin-top:1em;
+	}
+
+	#respond input[type="submit"] {
+	  border:1px solid gray;
+	  font-family: Tahoma;
+	  font-weight: bold;
+	  padding: 1em;
+		
+	  }
+
+	#respond input[type="submit"]:hover {
+	  cursor: pointer; 
+	  background:white;
+	  }
+/*-- End Comments --*/

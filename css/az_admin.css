@@ -1,0 +1,105 @@
+/*style for admin area*/
+
+.submit > .button-clean{
+	background: #D7260B;
+    color: white;
+}
+
+/*--responsive tabs--*/
+	.az-admin-wrap{
+	  min-width: 320px;
+	  max-width: 98%;
+	  padding: 10px;
+	  margin: 0 auto;
+	  background: #fff;
+	  font-size:1.2em;
+	}
+
+	.az-admin-wrap fieldset{
+		border:1px dotted #e5e5e5;
+		padding:10px;
+		background:#E2E8E9;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+	}
+	
+	.logo-ministork{
+		background:white;		
+		border: 1px solid;
+		border-radius: 50% 50%;
+		padding: 1px;
+	}
+	
+	.az-admin-title{background:#BD2447;color:white;padding:0 10px;}
+
+	*, *:before, *:after {margin: 0;padding: 0;box-sizing: border-box;}
+
+	.az-admin-wrap p {margin: 0 0 20px;line-height: 1.5;}	
+
+	.az-admin-wrap section {
+	  display: none;
+	  padding: 20px 10px;
+	  border-top: 1px solid #ddd;
+	  background:#fff;
+	}
+
+	#tab1,#tab2,#tab3 {display: none;}
+
+	.az-admin-wrap label {
+	  display: inline-block;
+	  margin: 0 0 -1px;
+	  padding: 15px 25px;
+	  font-weight: 600;
+	  text-align: center;
+	  color: #bbb;
+	  border: 1px solid transparent;
+	}
+
+	.az-admin-wrap label:hover {color: #888;cursor: pointer;}
+
+	.tabs:checked + label {
+	  color: #555;
+	  border: 1px solid #ddd;
+	  border-top: 2px solid #BD2447;
+	  border-bottom: 1px solid #fff;
+	  background:#fff;
+	}
+	
+
+	#tab1:checked ~ #content1,
+	#tab2:checked ~ #content2,
+	#tab3:checked ~ #content3{
+	  display: block;
+	}
+	
+	/*----cuztomizer preview-----*/
+	
+	#customize-theme-controls #accordion-section-header > h3,
+	#customize-theme-controls #accordion-section-colors > h3,
+	#customize-theme-controls #accordion-section-menu > h3,
+	#customize-theme-controls #accordion-section-layout > h3,
+	#customize-theme-controls #accordion-section-font > h3,
+	#customize-theme-controls #accordion-section-single-page > h3,
+	#customize-theme-controls #accordion-section-single-post > h3,
+	#customize-theme-controls #accordion-section-archive-page > h3,
+	#customize-theme-controls #accordion-section-front-page > h3,
+	#customize-theme-controls #accordion-section-footer > h3{
+		background: #eee;
+		box-shadow: 1px 1px 1px inset,-1px -1px 1px inset;
+	}
+	/*----end cuztomizer preview-----*/
+	
+	@media screen and (max-width: 650px) {
+	#az-admin-wrap{font-size:1em;}
+	.tab-label{margin:0 auto;width:100%;min-height:44px;vertical-align:middle;}
+	#az-admin-wrap select{font-size:0.9em;width:98%;}
+	
+	.form-table, .form-table td, .form-table td p, .form-table th, .form-table label {font-size: 10px;}
+	.form-table tr{height:44px;}
+	.form-table td, .form-table th{display:block;float:left;}
+}
+
+	@media screen and (min-device-width: 650px) and (max-device-width: 1280px) {
+			.form-table td, .form-table th{display:block;float:left;}
+	}
+/*--responsive tabs end--*/
+

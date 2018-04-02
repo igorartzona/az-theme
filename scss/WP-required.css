@@ -1,0 +1,95 @@
+/*========== WP required class ========== */
+.wp-caption {
+  text-align: center; }
+
+.wp-caption-text {
+  color: gray;
+  font-size: 0.8em; }
+
+.sticky {
+  background: #fff9c0;
+  box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.5), 0 1px 2px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1em; }
+
+.gallery-caption {
+  max-width: 96%;
+  text-align: center; }
+
+.gallery-item {
+  float: left; }
+
+.gallery-caption {
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 1em; }
+
+.gallery-item {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  vertical-align: top;
+  margin: 0.5%; }
+
+.gallery-columns-2 .gallery-item {
+  max-width: 49%; }
+
+.gallery-columns-3 .gallery-item {
+  max-width: 32.33%; }
+
+.gallery-columns-4 .gallery-item {
+  max-width: 24%; }
+
+.gallery-columns-5 .gallery-item {
+  max-width: 19%; }
+
+.gallery-columns-6 .gallery-item {
+  max-width: 15.66%; }
+
+.gallery-columns-7 .gallery-item {
+  max-width: 13.28%; }
+
+.gallery-columns-8 .gallery-item {
+  max-width: 11.5%; }
+
+.gallery-columns-9 .gallery-item {
+  max-width: 10.11%; }
+
+.gallery-columns-10 .gallery-item {
+  max-width: 9%; }
+
+.gallery-columns-5 .gallery-caption,
+.gallery-columns-6 .gallery-caption,
+.gallery-columns-7 .gallery-caption,
+.gallery-columns-8 .gallery-caption,
+.gallery-columns-9 .gallery-caption,
+.gallery-columns-10 .gallery-caption {
+  display: none; }
+
+.bypostauthor {
+  display: block;
+  box-shadow: 1px 1px 2px #7f7f7f;
+  margin: 1em; }
+
+.alignright {
+  float: right;
+  margin-left: 1em; }
+
+.alignleft {
+  float: left;
+  margin-right: 1em; }
+
+.aligncenter {
+  display: block;
+  margin: 0 auto; }
+
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden; }
+
+/* WPCodex. recommended to add $content_width and this style*/
+.size-auto, .size-full, .size-large, .size-medium, .size-thumbnail {
+  max-width: 100%;
+  height: auto; }

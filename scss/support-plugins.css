@@ -1,0 +1,31 @@
+/*=================  PLUGINS SUPPORT ==================*/
+/*==CF7 Contact Form 7 ==*/
+.wpcf7 input, .wpcf7 textarea, .wpcf7 select {
+  width: 100%; }
+
+.wpcf7-text {
+  border: 1px solid silver; }
+
+.wpcf7-not-valid-tip {
+  color: #f00;
+  display: block;
+  font-size: 1em; }
+
+.wpcf7-validation-errors {
+  border: 2px solid #f7e700; }
+
+.wpcf7-response-output {
+  margin: 2em 0.5em 1em;
+  padding: 0.2em 1em; }
+
+.wpcf7-form input {
+  font-weight: bold; }
+
+.wpcf7-validates-as-required {
+  border: 1px solid #bf1e2d; }
+
+.wpcf7-submit {
+  width: 100%;
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=support-plugins.css.map */

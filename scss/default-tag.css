@@ -1,0 +1,132 @@
+/*=================  DEFAULT TAG ==================*/
+* {
+  box-sizing: border-box; }
+
+html {
+  font-size: 100%;
+  font-family: Verdana, sans-serif; }
+
+body {
+  line-height: 1.6rem;
+  font-family: Verdana, sans-serif;
+  font-size: 100%; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 1.2;
+  font-size: 1.2rem; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: center;
+  width: 100%; }
+
+td, th {
+  border: 1px solid silver; }
+
+/* thead see dynamic.css */
+strong, dd {
+  font-weight: bold; }
+
+dt {
+  margin: 1em; }
+
+img, select, figure {
+  max-width: 100%;
+  height: auto; }
+
+iframe {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto; }
+
+mark, ins {
+  text-decoration: none;
+  background: #fff9c0; }
+
+pre {
+  background: #fff9c0;
+  font-family: Tahoma;
+  font-size: 0.9em;
+  padding: 1em;
+  border: 1px solid silver; }
+
+sup, sub {
+  font-size: 0.8em;
+  height: 0;
+  line-height: 0;
+  position: relative; }
+
+sup {
+  vertical-align: top; }
+
+sub {
+  vertical-align: bottom; }
+
+code, kbd, tt, var {
+  font: 0.9em Tahoma; }
+
+abbr, acronym {
+  text-transform: uppercase; }
+
+cite {
+  font: bold italic 0.8em sans-serif; }
+
+em {
+  font-style: italic; }
+
+q {
+  border-left: 1px solid silver;
+  padding: 1em; }
+
+blockquote:before {
+  font-family: dashicons;
+  content: "\f122";
+  font-size: 1.2em;
+  vertical-align: text-top; }
+
+blockquote {
+  padding: 1em 1em 1em 2em;
+  margin: 0.2em 0.2em 0.2em 0.5em;
+  background: #F5F5F5;
+  font-size: 1.2em;
+  font-style: italic;
+  font-family: Georgia,serif; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  visibility: hidden;
+  height: 0px; }
+
+:before, :after {
+  font-size: inherit;
+  vertical-align: bottom;
+  line-height: 1em; }
+
+/*-- form elements --*/
+input, select {
+  padding: 1em; }
+
+input[type='submit'] {
+  cursor: pointer;
+  font-weight: bold; }
+
+/*-- end form elements --*/
+/*-- link --*/
+a:hover {
+  text-decoration: none; }
+
+a[href$=".zip"]::after,
+a[href$=".exe"]::after,
+a[href$=".rar"]::after,
+a[href$=".doc"]::after,
+a[href$=".pdf"]::after {
+  content: "\f316";
+  font-family: "dashicons";
+  font-size: 1.2em; }
+
+/* link color see dynamic.css */
+/*-- end link --*/

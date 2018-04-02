@@ -1,0 +1,71 @@
+/*
+Theme Name: az-theme
+Theme URI: http://artzona.org/
+Author: igor.artzona
+Author URI: http://resume.artzona.org/
+Description: az theme for developing on WP
+Version: 2.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: az-theme
+Tags:left-sidebar, right-sidebar, custom-background
+*/
+
+/*
+1.Reset
+2.WP-required
+3.Default-tag
+
+4.Az-style
+
+6.Header
+7.Primary-menu
+8.Sidebar
+
+9.Layout
+
+10.Index-page-settings
+11.Content
+12.Single-page-settings
+13.Search page
+14.Comments
+15.Footer
+
+16.Support-plugins.
+
+17.Media-desktop
+18.Media-tablet
+19.Media-mobile
+
+
+*/
+
+@import "reset.scss";
+@import "WP-required.scss";
+@import "default-tag.scss";
+
+@import "az-style.scss";
+
+@import "customizer-var.scss";
+
+@import "header.scss";
+@import "primary-menu.scss";
+@import "sidebar.scss";
+
+@import "layout.scss";
+
+@import "index-page-settings.scss";
+@import "content.scss";
+@import "single-page-settings.scss";
+@import "search.scss";
+@import "comments.scss";
+@import "footer.scss";
+
+@import "support-plugins.scss";
+
+@import "media-desktop.scss";
+@import "media-tablet.scss";
+@import "media-mobile.scss";
+
+
+

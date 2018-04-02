@@ -1,0 +1,12 @@
+/*=================  AZ-STYLE ==================*/
+.az-flex {
+  display: flex; }
+
+.az-fleft {
+  float: left; }
+
+.az-hidden {
+  display: none; }
+
+.az-textcenter {
+  text-align: center; }

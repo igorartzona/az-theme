@@ -1,0 +1,11 @@
+/*=================  MEDIA MOBILE ==================*/
+@media only screen and (max-width: 320px) {
+  #az-wrap {
+    min-height: 0; }
+
+  #az-header, .az-content {
+    flex-direction: column; }
+
+  #main {
+    order: -1;
+    padding: 0 0.5em; } }
