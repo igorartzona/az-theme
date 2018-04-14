@@ -1,14 +1,17 @@
 === az theme ===
 Contributors: artzona.org
 Requires at least: WordPress 4.7
-Tested up to: WordPress 4.9.1
-Version: 2.1 (2018)
+Tested up to: WordPress 4.9.5
+Version: 2.2 (2018)
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: gray, silver, white, two-columns, three-columns, left-sidebar, right-sidebar, responsive-layout, flexbox-layout, custom-background, custom-colors, custom-header, sticky-post, translation-ready, custom-font
 
 == Description ==
 artzona theme for my developing site on WP.
+
+2.2
+* SEO meta tag for post & page support
 
 2.1
 * Menu position

@@ -2,16 +2,6 @@
 	/*-----------------template initialize-----------------*/	
 		$design = get_theme_mod( 'design' , 'blog' );
 		
-		// switch ( $design ) {
-			// case "landing" : 			
-				// function az_landing_css() {
-					// wp_enqueue_style('az-landing-css',get_template_directory_uri().'/css/landing.css');	
-				// } 
-				// add_action( 'wp_enqueue_scripts' , 'az_landing_css' );
-				// break;
-			// default:
-				// remove_action( 'wp_enqueue_scripts' , 'az_landing_css' );
-		// }
 		$template = 'archive';
 		if( is_front_page() ) $template = 'frontpage';
 		if( is_single() )	$template = 'single';

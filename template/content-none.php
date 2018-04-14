@@ -1,6 +1,6 @@
 <!-- None Template-->
 <?php 
-	dimox_breadcrumbs();
+	
 	if( is_search() ) : ?>
 		
 		<div class="az-search-title">

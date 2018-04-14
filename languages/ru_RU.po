@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: az theme\n"
-"POT-Creation-Date: 2018-03-10 11:24+0300\n"
-"PO-Revision-Date: 2018-03-10 11:25+0300\n"
+"POT-Creation-Date: 2018-04-14 20:58+0300\n"
+"PO-Revision-Date: 2018-04-14 20:59+0300\n"
 "Last-Translator: \n"
 "Language-Team: artzona.org\n"
 "Language: ru_RU\n"
@@ -60,11 +60,11 @@ msgstr "Очистить БД"
 msgid "Comments :"
 msgstr "Комментарии :"
 
-#: comments.php:34 index.php:85
+#: comments.php:34 index.php:82
 msgid "&laquo;"
 msgstr ""
 
-#: comments.php:35 index.php:86
+#: comments.php:35 index.php:83
 msgid "&raquo;"
 msgstr ""
 
@@ -80,77 +80,77 @@ msgstr "Email"
 msgid "Website"
 msgstr "Веб-сайт"
 
-#: functions.php:36 functions.php:228
-#, php-format
-msgid "Page %s"
-msgstr "Страница %s"
-
-#: functions.php:178
+#: functions.php:162
 msgid "Thumbnail"
 msgstr "Миниатюра"
 
-#: functions.php:201
+#: functions.php:185
 msgid "None"
 msgstr "Отсутствует"
 
-#: functions.php:222
+#: functions.php:206
 msgid "Home"
 msgstr "Главная"
 
-#: functions.php:223
+#: functions.php:207
 #, php-format
 msgid "Category \"%s\""
 msgstr "Категория \"%s\""
 
-#: functions.php:224
+#: functions.php:208
 #, php-format
 msgid "Search in \"%s\""
 msgstr "Поиск по запросу \"%s\""
 
-#: functions.php:225
+#: functions.php:209
 #, php-format
 msgid "Tag in \"%s\""
 msgstr "Метка \"%s\""
 
-#: functions.php:226
+#: functions.php:210
 #, php-format
 msgid "By author %s"
 msgstr "Автор %s"
 
-#: functions.php:227
+#: functions.php:211
 msgid "Error 404"
 msgstr "Ошибка 404"
 
-#: functions.php:229
+#: functions.php:212
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: functions.php:213
 #, php-format
 msgid "Page comments %s"
 msgstr "Страница комментариев: %s"
 
-#: functions.php:409
+#: functions.php:393
 msgid "Main menu"
 msgstr "Главное меню"
 
-#: functions.php:421
+#: functions.php:405
 msgid "Header Sidebar"
 msgstr "Сайдбар в шапке"
 
-#: functions.php:435
+#: functions.php:419
 msgid "Left Sidebar"
 msgstr "Левый сайдбар"
 
-#: functions.php:451
+#: functions.php:435
 msgid "Right Sidebar"
 msgstr "Правый сайдбар"
 
-#: functions.php:467
+#: functions.php:451
 msgid "Footer Sidebar"
 msgstr "Сайдбар в подвале"
 
-#: functions.php:481
+#: functions.php:465
 msgid "Single Left Sidebar"
 msgstr "Левый сайдбар отдельной страницы"
 
-#: functions.php:524
+#: functions.php:508 inc/panel/layout.php:104
 msgid "You must supply a numeric value"
 msgstr "Вы должны вводить только цифры"
 
@@ -321,33 +321,37 @@ msgstr "Макет"
 msgid "Layout settings"
 msgstr "Настройки макета"
 
-#: inc/panel/layout.php:19
+#: inc/panel/layout.php:22
 msgid "Choice design"
 msgstr "Выбор дизайна"
 
-#: inc/panel/layout.php:23
+#: inc/panel/layout.php:26
 msgid "Blog"
 msgstr "Блог (классический вид)"
 
-#: inc/panel/layout.php:24
+#: inc/panel/layout.php:27
 msgid "Landing page"
 msgstr "Лендинг"
 
-#: inc/panel/layout.php:37
+#: inc/panel/layout.php:40
 msgid "Display left sidebar"
 msgstr "Показать левый сайдбар"
 
-#: inc/panel/layout.php:51
+#: inc/panel/layout.php:57
 msgid "Display right sidebar"
 msgstr "Показать правый сайдбар"
 
-#: inc/panel/layout.php:65
+#: inc/panel/layout.php:75
 msgid "Site max-width (px)"
 msgstr "Максимальная ширина сайта (px)"
 
-#: inc/panel/layout.php:79
+#: inc/panel/layout.php:93
 msgid "Sidebar width (%)"
 msgstr "Ширина сайдбара (%)"
+
+#: inc/panel/layout.php:111
+msgid "We recommended width < 34%"
+msgstr "Мы рекомендуем ширину <  34%"
 
 #: inc/panel/menu.php:6
 msgid "NAV settings"
@@ -399,24 +403,45 @@ msgstr "Показывать ссылки Предыдущая\\Следующа
 msgid "Logo"
 msgstr "Логотип"
 
-#: index.php:65
+#: inc/seo_metabox.php:8
+msgid "Meta fields (az-theme SEO)"
+msgstr "Meta - поля ( az-theme  SEO)"
+
+#: inc/seo_metabox.php:16
+msgid "Meta title"
+msgstr "Meta title"
+
+#: inc/seo_metabox.php:25
+msgid "Meta description"
+msgstr "Meta description"
+
+#: inc/seo_metabox.php:33
+msgid "Meta keywords"
+msgstr "Meta keywords"
+
+#: inc/seo_metabox.php:41
+msgid "Meta robots"
+msgstr "Meta robots"
+
+#: index.php:62
 #, php-format
 msgid "Search Results for : %s"
 msgstr "Результаты поиска по запросу \" %s \""
 
-#: template/content-archive.php:35 template/content-frontpage.php:36
-#: template/content-landing.php:36
+#: template/content-archive.php:34 template/content-frontpage-old.php:36
+#: template/content-frontpage.php:34 template/content-landing.php:36
 msgid "Leave a comment"
 msgstr "Комментарии"
 
-#: template/content-archive.php:61 template/content-frontpage.php:76
-#: template/content-frontpage.php:78 template/content-landing.php:74
+#: template/content-archive.php:60 template/content-frontpage-old.php:76
+#: template/content-frontpage-old.php:78 template/content-frontpage.php:58
+#: template/content-frontpage.php:60 template/content-landing.php:74
 #: template/content-landing.php:76
 msgid "Read more&rArr;"
 msgstr "Читать далее&rArr;"
 
-#: template/content-attachment.php:22 template/content-page.php:5
-#: template/content-single.php:5
+#: template/content-attachment.php:21 template/content-page.php:4
+#: template/content-single.php:4
 msgid "Edit This"
 msgstr "Редактировать"
 
@@ -429,19 +454,19 @@ msgstr "По запросу \" %s \" ничего не найдено"
 msgid "Page not found"
 msgstr "Страница отсутствует"
 
-#: template/content-page.php:48 template/content-single.php:57
+#: template/content-page.php:47 template/content-single.php:56
 msgid "Tags: "
 msgstr "Метки:"
 
-#: template/content-page.php:55 template/content-single.php:64
+#: template/content-page.php:54 template/content-single.php:63
 msgid "Pages:"
 msgstr "Страницы:"
 
-#: template/content-page.php:61 template/content-single.php:70
+#: template/content-page.php:60 template/content-single.php:69
 msgid "Next page"
 msgstr "Следующая страница"
 
-#: template/content-page.php:62 template/content-single.php:71
+#: template/content-page.php:61 template/content-single.php:70
 msgid "Previous page"
 msgstr "Предыдущая страница"
 
@@ -488,9 +513,6 @@ msgstr ""
 #: widget/requisites.php:142
 msgid "E-mail:"
 msgstr "E-mail:"
-
-#~ msgid "New title"
-#~ msgstr "Заголовок"
 
 #~ msgid "%s"
 #~ msgstr "%s"

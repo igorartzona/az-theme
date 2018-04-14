@@ -563,5 +563,10 @@ admin style register
 /*==== AZ WIDGET ====*/
 	include_once('widget/requisites.php');
 
+/*==== SEO METABOX ====*/
+	include_once('inc/seo_metabox.php');
+
+
+
 	
 ?>
